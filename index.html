@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="background-color: orange;">
+    <h1 class="text-center h1">JqueryDocs</h1>
+    <div class="container rounded bg-white" style="width:60% ; height: auto;">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="h2">Que es Jquery</h2>
+                <p>jQuery es una biblioteca de JavaScript.<br>
+
+                    jQuery simplifica enormemente la programación de JavaScript.
+                    
+                    jQuery es fácil de aprender.</p>
+                    <br>
+                    <h2>Ejemplo</h2>
+                    <p class="bg-secondary  text-white">$(document).ready(function(){ <br>
+                        $("p").click(function(){<br>
+                          $(this).hide();<br>
+                        });
+                      });</p>
+                      <br>
+                      <h2>proposito</h2>
+                      <p>El propósito de jQuery es hacer mucho más fácil el uso de JavaScript en su sitio web.</p>
+                      <br>
+                      <h2>caracteristicas de Jquery</h2>
+                      <p>La biblioteca jQuery contiene las siguientes características:</p>
+                        <ul>
+                            <li>Manipulación HTML/DOM</li>
+                            <li>  Manipulación de CSS</li>
+                            <li>métodos de eventos HTML</li>
+                            <li>Efectos y animaciones.</li>
+                            <li>AJAX</li>
+                            <li>Utilidades</li>
+                        </ul>
+                        <br>
+                        <h2>por que Jquery</h2>
+                        <p>Existen muchas otras bibliotecas de JavaScript, pero jQuery es probablemente la más popular y también la más ampliable.</p>
+                        <p>Muchas de las empresas más importantes de la Web utilizan jQuery, como por ejemplo:</p>
+                        <br>
+                        <ul>
+                            <li>Google</li>
+                            <li>microsoft</li>
+                            <li>IBM</li>
+                            <li>netflix</li>
+                        </ul>
+                        <br>
+                        <h2>Agregar jQuery a sus páginas web</h2>
+                        <p>Hay varias formas de empezar a utilizar jQuery en su sitio web. Puede:</p>
+                        <ul>
+                            <li>Descargue la biblioteca jQuery desde jQuery.com</li>
+                            <li>Incluir jQuery desde una CDN, como Google</li>
+                        </ul>
+                        <br>
+                        <h2>Descargando jQuery</h2>
+                        <p>Hay dos versiones de jQuery disponibles para descargar:</p>
+                        <ul>
+                            <li>Versión de producción: esto es para su sitio web activo porque ha sido minimizado y comprimido.</li>
+                            <li>Versión de desarrollo: esto es para pruebas y desarrollo (código legible y sin comprimir)
+                                Ambas versiones se pueden descargar desde jQuery.com .</li>
+                        </ul>
+                        
+
+                             <br>
+                      <img src="fiod.png" style="width:700px ; height: 420px;">
+                      <br>
+                      <h2>CDN de jQuery</h2>
+                      <p>Si no desea descargar y alojar jQuery usted mismo, puede incluirlo desde una CDN (Content Delivery Network).</p>
+                      <p>Google es un ejemplo de alguien que aloja jQuery:</p>
+                      <p class="bg-secondary">https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js</p>
+                      <br>
+                      <h2>Sintaxis de jQuery</h2>
+                      <p>La sintaxis de jQuery está hecha a medida para seleccionar elementos HTML y realizar alguna acción sobre los elementos.</p>
+                      <p>La sintaxis básica es: $( selector ). acción ()</p>
+                      <ul>
+                        <li>Un signo $ para definir/acceder a jQuery</li>
+                        <li>Un ( selector ) para "consultar (o encontrar)" elementos HTML</li>
+                        <li>Una acción jQuery () que se realizará sobre los elementos</li>
+                      </ul>
+                      <br>
+                      <p><img src="yio.png" alt="" style="width:700px ;height: 270px;"></p>
+                      <br>
+                      <br>
+                      <h2>Selectores jQuery</h2>
+                      <p>Los selectores de jQuery son una de las partes más importantes de la biblioteca jQuery.</p>
+                      <p>Los selectores jQuery le permiten seleccionar y manipular elementos HTML.</p>
+                      <br>
+                      <p>Los selectores de jQuery se utilizan para "buscar" (o seleccionar) elementos HTML en función de su nombre, identificación, clases, tipos, atributos, valores de atributos y mucho más. Se basa en los selectores CSS existentes y, además, tiene algunos selectores personalizados propios.
+
+                        Todos los selectores en jQuery comienzan con el signo de dólar y paréntesis: $().</p>
+                        <p>Todos los selectores en jQuery comienzan con el signo de dólar y paréntesis: $().</p>
+                        <br>
+                        <br>
+                        <h2>El selector de elementos</h2>
+                        <p>El selector de elementos jQuery selecciona elementos según el nombre del elemento.
+
+                            Puede seleccionar todos <p>los elementos en una página como esta:</p>
+                            <p class="bg-secondary text-white">$("p")</p>
+                            <p>Ejemplo
+
+                                Cuando un usuario hace clic en un botón, todos <p>los elementos quedarán ocultos:</p>
+                                <br>
+                                <h2>Ejemplo</h2>
+                                <p class="bg-secondary text-white">$(document).ready(function(){ <br>
+                                    $("button").click(function(){ <br>
+                                      $("p").hide();<br>
+                                    }); <br>
+                                  }); <br></p>
+                                  <br>
+                                  <br>
+                                  <h2>El selector #id</h2>
+                                  <p>El selector jQuery utiliza el atributo id de una etiqueta HTML para encontrar el elemento específico.#id
+
+                                    Una identificación debe ser única dentro de una página, por lo que debes usar el selector #id cuando quieras encontrar un elemento único y único.
+                                    
+                                    Para encontrar un elemento con una identificación específica, escriba un carácter almohadilla, seguido de la identificación del elemento HTML:</p>
+                                    <br>
+                                    <p class="text-white bg-secondary">$("#test")</p>
+                                    <p>Cuando un usuario hace clic en un botón, el elemento con id="test" se ocultará:</p>
+                                    <h2>Ejemplo</h2>
+                                    <p class="text-white bg-secondary">$(document).ready(function(){ <br>
+                                        $("button").click(function(){ <br>
+                                          $("#test").hide(); <br>
+                                        }); <br>
+                                      }); <br></p>
+                                      <br><br>
+                                      <h2>El selector .class</h2>
+                                      <p>El .classselector jQuery encuentra elementos con una clase específica.
+
+                                        Para buscar elementos con una clase específica, escriba un punto, seguido del nombre de la clase:</p>
+                                        <br>
+                                        <p class="text-white bg-secondary">$(".test")</p>
+                                        <h2>Ejemplo</h2>
+                                        <p>Cuando un usuario hace clic en un botón, los elementos con class="test" se ocultarán:</p>
+                                        <p class="text-white bg-secondary">$(document).ready(function(){ <br>
+                                            $("button").click(function(){ <br>
+                                              $(".test").hide(); <br>
+                                            }); <br>
+                                          }); <br></p>
+                                          <br>
+                                          <br>
+                                          <h2>Más ejemplos de selectores jQuery</h2>
+                                          <p><img src="otros.png" alt=""></p>
+                                          <br>
+                                          <br>
+                                          <h2>Métodos jQuery AJAX</h2>
+                                          <p>AJAX es el arte de intercambiar datos con un servidor y actualizar partes de una página web, sin recargar toda la página.
+
+                                            La siguiente tabla enumera todos los métodos de jQuery AJAX:</p>
+                                          <p><img src="yoq.png" alt="" width="700px" height="410px"></p>
+                                          <br>
+                                          <br>
+                                          <h2>Métodos de efecto jQuery</h2>
+                                          <p>La siguiente tabla enumera todos los métodos de jQuery para crear efectos de animación.</p>
+                                          <p><img src="dsaxdya.png" alt="" width="700px" height="600px"></p>
+                                          <br><br>
+                                          <h2>jQuery Misc Methods</h2>
+                                          <p><img src="ultimo.png" alt="" width="700px" height="500px"></p>
+                                          <br>
+                                          <br>
+                                          <h2>jQuery manipulando CSS</h2>
+                                          <p class="text-white bg-secondary">jQuery tiene varios métodos para la manipulación de CSS. Veremos los siguientes métodos:
+
+                                            addClass()- Agrega una o más clases a los elementos seleccionados.<br>
+                                            removeClass()- Elimina una o más clases de los elementos seleccionados. <br>
+                                            toggleClass()- Alterna entre agregar/eliminar clases de los elementos seleccionados <br>
+                                            css()- Establece o devuelve el atributo de estilo.</p>
+                                            <br>
+                                            <br>
+                                            <h2>Método jQuery toggleClass()</h2>
+                                            <p>El siguiente ejemplo mostrará cómo utilizar el toggleClass()método jQuery. Este método alterna entre agregar/eliminar clases de los elementos seleccionados:</p>
+                                            <h2>Ejemplo</h2>
+                                            <p class="text-white bg-secondary">$("button").click(function(){ <br>
+                                                $("h1, h2, p").toggleClass("blue"); <br>
+                                              }); <br>
+                                              </p>
+                                              <br><br>
+                                              <p class="text-center">Johansitoweb</p>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

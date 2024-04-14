@@ -1,0 +1,1 @@
+<!--esta documemtacion o pequeña documentacion trato de que sea muy amigable y que laspersonas puedan enterder jquery de una forma facil y en una sola pagina-->
